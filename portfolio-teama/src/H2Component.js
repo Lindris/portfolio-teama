@@ -2,7 +2,7 @@ import React from 'react';
 
 
 
-const H3Component = ({ message = ''}) => {
+const H2Component = ({ message = ''}) => {
  return (
   <h3 className='small-text' type='text'>
   {message}
@@ -10,4 +10,4 @@ const H3Component = ({ message = ''}) => {
  );
 };
 
-export default H3Component;
+export default H2Component;
