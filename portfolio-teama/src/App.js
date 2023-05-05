@@ -8,7 +8,7 @@ function App() {
         <h1>Anna Nilm</h1>
         <button>About me</button>
         <h3>Aspiring Web Developer</h3>
-        <h2>hello it's me </h2>
+        <h2>hello it's me!!! </h2>
       </header>
     </div>
   );
