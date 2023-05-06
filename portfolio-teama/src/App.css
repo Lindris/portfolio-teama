@@ -1,16 +1,42 @@
-.App {
+/* .App {
   text-align: center;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+} */
+
+/* @fontface {
+  font-family:Roboto;
+  src: url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap")
+} */
+
+/* @fontface {
+  font-family: Unbounded;
+  src: url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Unbounded&display=swap")
+} */
+
+
+/* @fontface {
+  font-family: Unbounded;
+  src: url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@500&family=Roboto:wght@300&family=Unbounded&display=swap")
+} */
+
+
+@fontface {
+  font-family: Mali;
+  src: url("https://fonts.googleapis.com/css2?family=League+Spartan:@300&family=Unboundedwght@500&family=Mali:wght@500;600&family=Roboto:wght&display=swap")
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
 }
 
 .App-header {
@@ -37,8 +63,38 @@
   }
 }
 
+h1 {
+  font-family: 'Roboto', sans-serif;
+  
+  /* font-family: 'Unbounded', cursive; */
 
-.Button:hover {
-background-color: green;
+  /* font-family: 'League Spartan', sans-serif; */
+  font-family: 'Mali', cursive;
+  font-size: 150px;
+}
+.about {
+  background-color: #D3AB9E;
+  height: 80px;
+  width: 160px;
+  border-radius: 15%;
+  border-width: 5px;
+  border-color: #B2967D;
+font-size: 25px;
+font-family:'Roboto' sans-serif;
+font-stretch: 12px;
+font-weight: 500;
+
+}
+
+.about:hover {
+background-color: #c3e4e4;
 color: black;
+text-decoration: underline;
+}
+
+img {
+ margin-right: 0;
+ margin-left: auto;
+ 
+ /* display:block; */
 }

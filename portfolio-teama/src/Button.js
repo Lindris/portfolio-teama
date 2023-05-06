@@ -4,7 +4,7 @@ import './Button.css';
 
 const Button = ({ message = ''}) => {
  return (
-  <button className = 'button' type='button'>
+  <button className='button' type='button'>
   {message}
   </button>
  );
