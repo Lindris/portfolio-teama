@@ -45,16 +45,7 @@ body {
 
 } 
 
-/* .App-header {
- background-color: #EEE4E1;
- min-height: 100vh;
- display: flex;
- flex-direction: column;
- align-items: center;
- justify-content: center;
- font-size: calc(10px + 2vmin);
- color: #242121;
-} */
+
 
 
 .grid-container {
@@ -65,7 +56,7 @@ body {
  grid-template-rows: 2fr 1fr ;
 align-items: center;
 justify-content: center;
- grid-gap: 1em;
+ grid-gap: 2em;
  /* grid-auto-rows:300px; */
 
  /* for flexible height to adjust to contents use minmax */
@@ -86,6 +77,7 @@ margin: 0%;
 .Box2 {
   grid-column: 2/3;
  grid-row: 1/2;
+ margin-top: 80px;
 }
 
 
@@ -94,6 +86,7 @@ margin: 0%;
  grid-row:1/4;
  grid-column: 3;
  align-self: center;
+
  
 }
 
@@ -135,48 +128,13 @@ justify-content: right;
 /* layout of components in a grid */
 .grid-container > div{
  background-color: #FFFBFF;
- padding: 1em;
+ padding: 3em;
+ 
 }
 
 .App-link {
  color: #61dafb;
 }
-
-/* @keyframes App-logo-spin {
- from {
-   transform: rotate(0deg);
- }
- to {
-   transform: rotate(360deg);
- }
-} */
-
-
-
-/* .about {
- background-color: #D3AB9E;
- height: 80px;
- width: 160px;
- margin-top: 200px;
- border-radius: 15%;
- border-width: 5px;
- border-color: #B2967D;
-font-size: 25px;
-font-family:'Roboto' sans-serif;
-
-font-weight: 900;
-align-items: right;
-justify-content: right;
-
-} */
-
-/* .about:hover {
-background-color: #c3e4e4;
-color: black;
-text-decoration: underline;
-font-weight: 800;
-
-} */
 
 
 h3 {
@@ -184,13 +142,9 @@ h3 {
 font-family:'Roboto' sans-serif;
 /* font-stretch: 20px; */
 font-weight: 9000;
+margin-left: 120px;
 /* margin-top: 200px; */
 }
-
-
-/* h2 {
-  font-family:'Roboto' sans-serif; 
-} */
 
 
 li {
@@ -199,7 +153,17 @@ li {
 
 
 p {
-  font-size: 40px;
+  font-size: 35px;
+  margin-left: 120px;
+text-align: justify;
+}
+
+.expertise {
+  margin-left: -10px;
+  border-radius: 4px;
+  border-color: black;
+  /* margin-top: 100px; */
+
 }
 
 .home {
@@ -215,12 +179,7 @@ font-weight: 800;
 .desk {
  min-height:100vh; 
  max-height: auto;
-/* margin-right: 0;
-margin-left: auto; */
-/* width: 40%;
-height:50cm; */
-/* display:block; */
-/* grid-column: 2/2;
-grid-row: 2; */
+ max-width: 35vw;
+
 }
 
